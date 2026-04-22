@@ -37,4 +37,7 @@ type Server struct {
 
 	// MCP配置
 	MCP MCP `mapstructure:"mcp" json:"mcp" yaml:"mcp"`
+
+	// Consul配置
+	Consul Consul `mapstructure:"consul" json:"consul" yaml:"consul"`
 }
