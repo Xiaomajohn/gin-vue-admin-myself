@@ -40,4 +40,7 @@ type Server struct {
 
 	// Consul配置
 	Consul Consul `mapstructure:"consul" json:"consul" yaml:"consul"`
+
+	// Elasticsearch配置
+	Elasticsearch Elasticsearch `mapstructure:"elasticsearch" json:"elasticsearch" yaml:"elasticsearch"`
 }
